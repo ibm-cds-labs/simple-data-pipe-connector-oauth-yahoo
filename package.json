@@ -5,7 +5,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-yahoo.git"
+    "url": "git+https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-yahoo.git"
   },
   "simple_data_pipe": {
     "name": "yahoo_oauth_starter_kit",
@@ -20,7 +20,6 @@
   ],
   "dependencies": {
     "bluemix-helper-config": "^0.1.13",
-    "lodash": "^4.6.1",
     "passport-yahoo-oauth2": "^0.2.5",
     "request": "^2.69.0",
     "simple-data-pipe-sdk": "^0.2.2",
