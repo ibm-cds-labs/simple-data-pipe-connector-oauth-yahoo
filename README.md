@@ -2,10 +2,9 @@
 
 ***
 
+# Simple Data Pipe connector boilerplate for Yahoo
 
-# Simple Data Pipe connector starter for yahoo
-
-This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector for yahoo starter kit has been customized for yahoo.com OAuth access. You can build your own special purpose connector by implementing the `getYahooDataSetList` and `fetchRecords` methods in `lib/index.js` to fetch the desired data from yahoo and optionally enrich it.
+This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector boilerplate for <a href="http://yahoo.com">Yahoo</a> has been preconfigured for OAuth1.0 access.You can build your own special purpose connector by implementing the `getYahooDataSetList` and `fetchRecords` methods in `lib/index.js` to fetch the desired data from Trello and optionally enrich it.
 
 ### Pre-requisites
 
@@ -20,7 +19,7 @@ This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-
 
 This connector does not require any additional Bluemix service.
 
-##### Install the Simple Data Pipe Yahoo connector starter
+##### Install the Simple Data Pipe Yahoo boilerplate
 
   When you [follow these steps to install this connector](https://github.com/ibm-cds-labs/simple-data-pipe/wiki/Installing-a-Simple-Data-Pipe-Connector), add the following line to the dependencies list in the `package.json` file: 
 
@@ -40,7 +39,7 @@ To configure and run a pipe
 
 1. Open the Simple Data Pipe web console.
 2. Select __Create A New Pipe__.
-3. Select __Yahoo OAuth Data Source__ for the __Type__ when creating a new pipe  
+3. Select __Yahoo OAuth1.0 Data Source__ for the __Type__ when creating a new pipe  
 4. In the _Connect_ page, enter the _application id_ and _secret_ from the yahoo app preferences page. 
 5. Select the data set (or data sets) to be loaded.
 6. Schedule or run the data pipe now.
