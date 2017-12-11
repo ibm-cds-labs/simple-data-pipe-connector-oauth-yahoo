@@ -1,8 +1,6 @@
-> Hey there! So you want to build your own Simple Data Pipe connector? [Start here](https://github.com/ibm-cds-labs/simple-data-pipe-connector-template/wiki/How-to-build-a-Simple-Data-Pipe-connector-using-this-template).
-
-***
-
 # Simple Data Pipe connector boilerplate for Yahoo
+
+:no_entry_sign: This project is no longer maintained.
 
 This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector boilerplate for <a href="http://yahoo.com">Yahoo</a> has been preconfigured for OAuth1.0 access.You can build your own special purpose connector by implementing the `getYahooDataSetList` and `fetchRecords` methods in `lib/index.js` to fetch the desired data from Trello and optionally enrich it.
 
